@@ -68,8 +68,8 @@ function attachEventListeners() {
 
         taskDiv.querySelector(".delete-btn").addEventListener("click", () => {
             if (confirm("Are you sure you want to delete this task?")) {
-                storeTask.splice(index, 1); // Remove from array
-                displayTasks(); // Refresh display
+                storeTask.splice(index, 1); 
+                displayTasks(); 
             }
         });
     });
